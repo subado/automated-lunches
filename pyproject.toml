@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "automated-lunches"
+version = "0.1.0"
+description = ""
+authors = ["subado <redcatgamer1980@gmail.com>"]
+readme = "README.md"
+packages = [{include = "automated_lunches"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytelegrambotapi = "^4.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
