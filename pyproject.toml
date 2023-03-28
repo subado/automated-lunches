@@ -10,6 +10,8 @@ packages = [{include = "automated_lunches"}]
 python = "^3.11"
 aiogram = "^2.25.1"
 
+[tool.poetry.scripts]
+main = 'automated_lunches.main:run'
 
 [build-system]
 requires = ["poetry-core"]
