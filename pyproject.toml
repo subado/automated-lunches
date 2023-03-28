@@ -8,7 +8,7 @@ packages = [{include = "automated_lunches"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-aiogram = "^2.25.1"
+aiogram = {version = "^3.0.0b7", allow-prereleases = true}
 
 [tool.poetry.scripts]
 main = 'automated_lunches.main:run'
